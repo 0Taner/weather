@@ -1,0 +1,18 @@
+.searchInput {
+  width: 16rem;
+  height: 1.6rem;
+  border-radius: 0.3rem;
+}
+button {
+  height: 1.8rem;
+  margin-left: 0.5rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  background-color: #04aa6d;
+  cursor: pointer;
+}
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateX(4px);
+}
