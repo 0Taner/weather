@@ -1,0 +1,29 @@
+
+.weather-container {
+    display: flex;
+    justify-content: space-between; /* Öğeler arasındaki boşluğu ayarlayabilirsiniz */
+    font-family: cursive;
+  }
+  
+  .weather-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Eğer çoklu satırlara ihtiyacınız varsa */
+    justify-content: space-between;
+    
+  }
+  
+  .weather-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    width: calc(20% - 10px); /* Her kartın genişliği %20, margin'leri çıkarıyoruz */
+    box-sizing: border-box; /* Border ve padding hesabı için */
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 25px;
+    box-shadow: 5px 5px;
+  }
+
+  
+  
