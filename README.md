@@ -1,6 +1,6 @@
 # Weather App
 
-In this repository, the user can access weather data of any location he wants
+In this repository, the user can access weather data of any location  wants
 
 
 ## Features
